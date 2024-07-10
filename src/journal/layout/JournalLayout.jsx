@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import { Box } from "@mui/material"
-import { Navbar } from '../components'
+import { Navbar, Sidebar } from '../components'
 
 const drawerWidth = 240;
 
@@ -10,9 +10,8 @@ export const JournalLayout = ({ children }) => {
             display: 'flex'
         }}>
             <Navbar drawerWidth={drawerWidth} />
-
-            {/* Sidebar */}
-
+            <Sidebar />
+            
             <Box
                 component="main"
                 sx={{
