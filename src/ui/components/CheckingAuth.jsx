@@ -2,7 +2,7 @@ import { CircularProgress, Grid } from "@mui/material"
 
 export const CheckingAuth = () => {
     return (
-        <Grid container
+        <Grid 
             spacing={0}
             direction="column"
             alignItems="center"
@@ -13,7 +13,7 @@ export const CheckingAuth = () => {
                 padding: 4
             }}
         >
-            <Grid item
+            <Grid container
                 direction={'row'}
                 justifyContent={'center'}
                 alignItems={'center'}
